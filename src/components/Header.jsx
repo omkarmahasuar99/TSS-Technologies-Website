@@ -39,7 +39,7 @@ const Header = () => {
         <a className="flex w-[6rem] xl:mr-0" href="#hero">
           <img src={TSS} width={80} height={40} alt="TSS Technologies" />
         </a>
-        <a className="text-xl">TSS Technologies</a>
+        <a className="text-xl">tsstechnologies</a>
 
         <nav
           className={`${

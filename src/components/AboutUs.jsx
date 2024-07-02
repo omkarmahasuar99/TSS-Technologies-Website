@@ -69,7 +69,7 @@ const AboutUs = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="bg-cover p-8 rounded-lg shadow-lg hover:shadow-xl hover:transform hover:scale-110 transition-transform duration-300"
+                className="bg-black p-8 rounded-lg shadow-lg hover:shadow-xl hover:transform hover:scale-110 transition-transform duration-300"
               >
                 <img
                   src={card.imageUrl}

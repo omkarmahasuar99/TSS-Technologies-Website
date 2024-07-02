@@ -1,6 +1,5 @@
 import Header from "./Header";
 import VisionMission from "./VisionMision 1";
-// import Hero from "./Hero";
 import TechnologiesUsed from "./TechnologiesUsed";
 import Footer from "./Footer";
 import SoftwareUsed from "./SoftwareUsed";
@@ -11,7 +10,6 @@ export default function Landing() {
     <>
       <Header />
       <Banner />
-      {/* <Hero /> */}
       <SoftwareUsed />
       <VisionMission />
       <TechnologiesUsed />

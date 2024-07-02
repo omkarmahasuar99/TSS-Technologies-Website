@@ -2,7 +2,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import appDevImg from "../assets/appDevImg.jpg";
-
+import appDevImg2 from "../assets/appDevImg2.jpg";
 export default function AppDev() {
   return (
     <>
@@ -43,7 +43,7 @@ export default function AppDev() {
           </div>
         </div>
       </section>
-      <section className="m-4 bg-neutral-950 md:m-8 dark:bg-gray-100 dark:text-gray-800">
+      <section className="m-4 md:m-8 dark:bg-gray-100 dark:text-gray-800">
         <div
           className="container p-4 mx-auto my-6 space-y-1 text-center"
           bis_skin_checked="1"
@@ -119,6 +119,108 @@ export default function AppDev() {
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
               href="/docs"
             ></a>
+          </div>
+        </div>
+      </section>
+      <section className="dark:bg-gray-100 dark:text-gray-800">
+        <div
+          className="container flex flex-col-reverse mx-auto lg:flex-row"
+          bis_skin_checked="1"
+        >
+          <div
+            className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 dark:bg-violet-600 dark:text-gray-50"
+            bis_skin_checked="1"
+          >
+            <div className="flex space-x-2 sm:space-x-4" bis_skin_checked="1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                className="flex-shrink-0 w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                ></path>
+              </svg>
+              <div className="space-y-2" bis_skin_checked="1">
+                <p className="text-lg font-medium leading-snug">
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p className="leading-snug">
+                  Praesentium ea et neque distinctio quas eius repudiandae
+                  quaerat obcaecati voluptatem similique!
+                </p>
+              </div>
+            </div>
+            <div className="flex space-x-2 sm:space-x-4" bis_skin_checked="1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                className="flex-shrink-0 w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                ></path>
+              </svg>
+              <div className="space-y-2" bis_skin_checked="1">
+                <p className="text-lg font-medium leading-snug">
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p className="leading-snug">
+                  Praesentium ea et neque distinctio quas eius repudiandae
+                  quaerat obcaecati voluptatem similique!
+                </p>
+              </div>
+            </div>
+            <div className="flex space-x-2 sm:space-x-4" bis_skin_checked="1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                className="flex-shrink-0 w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                ></path>
+              </svg>
+              <div className="space-y-2" bis_skin_checked="1">
+                <p className="text-lg font-medium leading-snug">
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p className="leading-snug">
+                  Praesentium ea et neque distinctio quas eius repudiandae
+                  quaerat obcaecati voluptatem similique!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="lg:w-1/2 xl:w-3/5 dark:bg-gray-100"
+            bis_skin_checked="1"
+          >
+            <div
+              className="flex items-center justify-center p-4 md:p-8 lg:p-12"
+              bis_skin_checked="1"
+            >
+              <img
+                src={appDevImg2}
+                alt=""
+                className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96"
+              />
+            </div>
           </div>
         </div>
       </section>

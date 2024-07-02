@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 import { motion } from "framer-motion";
 import JobList from "./Joblist";
 import career from "../assets/career.jpg";
