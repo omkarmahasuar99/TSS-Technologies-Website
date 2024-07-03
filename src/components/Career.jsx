@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unknown-property */
 import { motion } from "framer-motion";
 import JobList from "./Joblist";
-import career from "../assets/career.jpg";
+import career from "../assets/cc1.jpeg";
 import work from "../assets/work.png";
 import c1 from "../assets/c1.jpeg";
 import {
@@ -160,7 +160,7 @@ const Career = () => {
               touch the world needs.
             </p>
             <p className="text-l font-semibold text-gray-800">
-              TSS Technologies. Get the future you want.
+              tsstechnologies, Get the future you want.
             </p>
           </motion.div>
           <motion.div
