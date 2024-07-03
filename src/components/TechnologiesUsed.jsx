@@ -34,7 +34,7 @@ function TechnologiesUsed() {
           />
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
             <div>
-              <p className="text-black text-xs">
+              <p className="text-white text-sm">
                 High-quality web applications that drive engagement and deliver
                 outstanding performance
               </p>

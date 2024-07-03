@@ -4,12 +4,13 @@ import TechnologiesUsed from "./TechnologiesUsed";
 import Footer from "./Footer";
 import SoftwareUsed from "./SoftwareUsed";
 import Banner from "./Banner";
+import Hero from "./Hero";
 
 export default function Landing() {
   return (
     <>
       <Header />
-      <Banner />
+      <Hero />
       <SoftwareUsed />
       <VisionMission />
       <TechnologiesUsed />

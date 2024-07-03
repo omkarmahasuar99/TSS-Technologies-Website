@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import Header from "./Header";
 import Footer from "./Footer";
-import webDevImg from "../assets/wd-hero.jpg";
+import webDevImg from "../assets/webDev.jpg";
 import webDevImg2 from "../assets/web-dev-2.jpg";
 
 export default function WebDev() {
@@ -24,12 +24,12 @@ export default function WebDev() {
                 Web Development
               </h1>
               <p className="mt-8 text-base font-normal leading-7 text-gray-400 lg:max-w-md xl:pr-0 lg:pr-16">
-                We specialize in crafting sophisticated mobile applications that
+                We specialize in crafting sophisticated web applications that
                 redefine user experiences.
               </p>
               <p className="mt-8 text-base font-normal leading-7 text-gray-400 lg:max-w-md xl:pr-0 lg:pr-16">
                 With a strong emphasis on intuitive design and state-of-the-art
-                functionalities, our mobile apps set new standards in usability
+                functionalities, our web apps set new standards in usability
                 and innovation.
               </p>
             </div>
@@ -50,15 +50,13 @@ export default function WebDev() {
           bis_skin_checked="1"
         >
           <span className="text-xs font-semibold tracking-wider uppercase dark:text-violet-600">
-            shortcut to your dream ui
+            shortcut to your dream website
           </span>
           <h2 className="pb-3 text-3xl font-bold md:text-4xl">
-            Create a stylish website in minutes
+          Web Development Services for Cutting-Edge Products
           </h2>
           <p>
-            Get a jumpstart to creating your new webpage! With our fully
-            responsive and carefully styled components you can get the structure
-            of your website done with just a couple of clicks.
+          Our dedicated web development team harnesses cutting-edge technologies and innovative solutions to create robust, user-friendly websites for our products. We focus on delivering seamless digital experiences that engage and delight our customers.
           </p>
         </div>
         <div
@@ -67,11 +65,10 @@ export default function WebDev() {
         >
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-              Components
+              Custom Web Design & Development
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-              Individual components that can be re-used multiple times in your
-              designs.
+            Crafting unique, tailor-made websites that showcase our products and enhance our brand identity.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -83,11 +80,10 @@ export default function WebDev() {
             bis_skin_checked="1"
           >
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-              Sections
+            Responsive and Mobile-First Approach
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-              Pre-made building blocks that you can stack on top of each other
-              like Legos to build a website of your own in minutes.
+            Ensuring a seamless user experience across all devices with responsive and mobile-first design principles.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -96,11 +92,10 @@ export default function WebDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-              Templates
+            Integrated Software Solutions
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-              Full pages that showcase pieces of what you can achieve with the
-              building blocks that are in this UI kit.
+            Developing platforms that seamlessly integrate with our software products, providing users with a cohesive and efficient experience.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -109,12 +104,10 @@ export default function WebDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-              Customization
+            Advanced SEO Optimization
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-              Choose your primary color from any of the Tailwind CSS 2.0 colors.
-              You can also view all of the components in our light and dark
-              themes.
+            Implementing top-tier SEO strategies to maximize our software products' online visibility and search engine rankings.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -149,11 +142,10 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                  Lorem ipsum dolor sit amet
+                Ongoing Support and Maintenance
                 </p>
                 <p className="leading-snug">
-                  Praesentium ea et neque distinctio quas eius repudiandae
-                  quaerat obcaecati voluptatem similique!
+                Providing continuous support and regular updates to keep our websites running at peak performance.
                 </p>
               </div>
             </div>
@@ -174,11 +166,10 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                  Lorem ipsum dolor sit amet
+                Scalable Solutions
                 </p>
                 <p className="leading-snug">
-                  Praesentium ea et neque distinctio quas eius repudiandae
-                  quaerat obcaecati voluptatem similique!
+                Designing flexible web solutions that can grow and adapt with our expanding software product lineup.
                 </p>
               </div>
             </div>
@@ -199,11 +190,10 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                  Lorem ipsum dolor sit amet
+                Enhanced Security Measures
                 </p>
                 <p className="leading-snug">
-                  Praesentium ea et neque distinctio quas eius repudiandae
-                  quaerat obcaecati voluptatem similique!
+                Utilizing the latest security protocols to protect our websites and ensure a safe user experience.
                 </p>
               </div>
             </div>

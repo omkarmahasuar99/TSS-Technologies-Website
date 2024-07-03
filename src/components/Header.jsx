@@ -36,10 +36,10 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="flex w-[6rem] xl:mr-0" href="#hero">
+        <a className="flex w-[6rem] xl:mr-0" href="/">
           <img src={TSS} width={80} height={40} alt="TSS Technologies" />
         </a>
-        <a className="text-xl">tsstechnologies</a>
+        <a className="text-xl" href="/">tsstechnologies</a>
 
         <nav
           className={`${
