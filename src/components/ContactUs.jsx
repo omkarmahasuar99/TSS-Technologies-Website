@@ -36,7 +36,7 @@ const ContactUs = () => {
       </div>
       <div className="h-auto w-full flex flex-col md:flex-row">
         <form
-          className="flex flex-col mx-4 sm:mx-16 md:mx-[8rem] py-4 transform transition duration-300 hover:scale-110"
+          className="flex flex-col mx-4 sm:mx-16 md:mx-[10rem] py-4 transform transition duration-300 hover:scale-110"
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col mb-4">
@@ -137,7 +137,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className="h-64  flex flex-col md:flex-row px-4 py-4">
+      <div className="h-64  flex flex-col md:flex-row px-4 py-4 mx-6">
         <div className="h-52  md:w-60 mx-4 lg:mx-28 my-3 text-center bg-black-400 py-3 border border-green-300 rounded-3xl transform transition duration-300 hover:scale-110">
           <RiMapPin2Fill className="mx-auto size-12" />
           <p className="text-sm font-bold my-[10px]">Our Office</p>
