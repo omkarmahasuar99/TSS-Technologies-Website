@@ -10,6 +10,7 @@ import Career from "./components/Career";
 import AboutUs from "./components/AboutUs";
 import AIComp from "./components/AI-ML";
 import JobDetails from "./components/Jobdetails";
+import VisionMissionDetail from "./components/VisionMisionDetail";
 const App = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/ai-ml" element={<AIComp />} />
             <Route path="/vision-detail" element={<VisionDetail />} />
             <Route path="/mission-detail" element={<MissionDetail />} />
+            <Route path="/visionmissiondetails" element={<VisionMissionDetail />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path={"/careers/:jobId"} element={<JobDetails />} />
