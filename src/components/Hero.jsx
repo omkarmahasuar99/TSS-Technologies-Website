@@ -7,9 +7,9 @@ function Hero() {
     <div className="bg-black w-full h-screen text-white">
       <div className="relative w-full h-screen">
         
-        <div className="absolute top-1/2 left-1/3 transform -translate-x-1/4 -translate-y-1/2 z-30">
-          <h1 className="text-[75px] font-medium text-center mb-5 leading-[100px]" >Crafting Solutions for a Better Future.</h1>
-          <p className="text-[25px] text-center">Innovating Today to Create Products that Shape Tomorrow's World.</p>
+        <div className="absolute top-[350px] sm:top-1/2 left-1/3 transform -translate-x-1/4 -translate-y-1/2 z-30">
+          <h1 className="text-[45px] font-medium text-center mb-5 leading-[60px] sm:text-[75px] sm:leading-[100px]" >Crafting Solutions for a Better Future.</h1>
+          <p className="text-[18px] text-center sm:text-[25px]">Innovating Today to Create Products that Shape Tomorrow's World.</p>
         </div>
         <Parallax
           className="absolute w-full h-full"

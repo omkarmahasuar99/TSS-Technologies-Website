@@ -8,7 +8,7 @@ export default function VisionMision() {
   return (
     <>
       <div className="base">
-        <div className="card" onClick={() => navigate("/vision-detail")}>
+        <div className="card" onClick={() => navigate("/visionmissiondetails")}>
           <div className="card2">
             <h2 className="headingVision">Vision</h2>
             <p className="para">
@@ -19,7 +19,7 @@ export default function VisionMision() {
             <button className="knowMoreButton">Know More</button>
           </div>
         </div>
-        <div className="card" onClick={() => navigate("/mission-detail")}>
+        <div className="card" onClick={() => navigate("/visionmissiondetails")}>
           <div className="card2">
             <h2 className="headingVision">Mission</h2>
             <p className="para">
