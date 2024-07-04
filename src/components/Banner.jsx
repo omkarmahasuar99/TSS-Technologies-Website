@@ -29,7 +29,7 @@ const Banner = () => {
               className="relative opacity-70  animate-fadeIn"
               style={{ right: "220px", width: "400px" }}
             >
-              At TSSTechnologies, we specialize in creating advanced products
+              At tssstechnologies, we specialize in creating advanced products
               that solve real-world problems. Our team of experts is dedicated
               to pushing the boundaries of technology.
             </p>
@@ -49,7 +49,7 @@ const Banner = () => {
               className="relative opacity-70  animate-fadeIn"
               style={{ right: "220px", width: "400px" }}
             >
-              Discover TSSTechnologies' latest advancements and how we're
+              Discover tsstechnologies' latest advancements and how we're
               shaping the future with cutting-edge technologies. From AI to IoT,
               explore how our solutions are setting new benchmarks.
             </p>
@@ -69,7 +69,7 @@ const Banner = () => {
               className="relative opacity-70  animate-fadeIn"
               style={{ right: "220px", width: "400px" }}
             >
-              Explore TSSTechnologies' dedication to pushing the boundaries of
+              Explore tsstechnologies' dedication to pushing the boundaries of
               technology through ongoing research and development. Learn how our
               innovative solutions anticipate and meet future challenges.
             </p>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 import Header from "./Header";
 import Footer from "./Footer";
@@ -24,10 +25,13 @@ const AIComp = () => {
                 AI/ML
               </h1>
               <p className="mt-8 text-base text-white font-normal leading-7 lg:max-w-md xl:pr-0 lg:pr-16">
-              Our AI/ML solutions enhance our software with predictive analytics, NLP, and computer vision for superior functionality.
+                Our AI/ML solutions enhance our software with predictive
+                analytics, NLP, and computer vision for superior functionality.
               </p>
               <p className="mt-8 text-base font-normal leading-7 text-white lg:max-w-md xl:pr-0 lg:pr-16">
-              Our AI/ML services leverage predictive analytics, natural language processing, and computer vision to improve our software's performance and user experience.
+                Our AI/ML services leverage predictive analytics, natural
+                language processing, and computer vision to improve our
+                software's performance and user experience.
               </p>
             </div>
           </div>
@@ -46,10 +50,13 @@ const AIComp = () => {
             shortcut to your dream product
           </span>
           <h2 className="pb-3 text-3xl font-bold md:text-4xl">
-          Advanced AI & Machine Learning Solutions
+            Advanced AI & Machine Learning Solutions
           </h2>
           <p>
-          Our AI/ML team leverages state-of-the-art technologies and methodologies to integrate intelligent solutions into our software products. We aim to enhance functionality, improve user experiences, and drive data-driven decision-making.
+            Our AI/ML team leverages state-of-the-art technologies and
+            methodologies to integrate intelligent solutions into our software
+            products. We aim to enhance functionality, improve user experiences,
+            and drive data-driven decision-making.
           </p>
         </div>
         <div
@@ -58,10 +65,11 @@ const AIComp = () => {
         >
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Custom AI/ML Development
+              Custom AI/ML Development
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Creating tailored AI and machine learning models that address specific challenges and enhance our software capabilities.
+              Creating tailored AI and machine learning models that address
+              specific challenges and enhance our software capabilities.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -73,10 +81,11 @@ const AIComp = () => {
             bis_skin_checked="1"
           >
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Predictive Analytics
+              Predictive Analytics
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Utilizing advanced analytics to predict trends, optimize performance, and provide actionable insights.
+              Utilizing advanced analytics to predict trends, optimize
+              performance, and provide actionable insights.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -85,11 +94,12 @@ const AIComp = () => {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Natural Language Processing
+              Natural Language Processing
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Implementing NLP techniques to improve user interactions and automate processes through understanding and processing human language.
-
+              Implementing NLP techniques to improve user interactions and
+              automate processes through understanding and processing human
+              language.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -98,10 +108,11 @@ const AIComp = () => {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Computer Vision
+              Computer Vision
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Integrating computer vision capabilities to analyze and interpret visual data, enhancing the functionality of our software products.
+              Integrating computer vision capabilities to analyze and interpret
+              visual data, enhancing the functionality of our software products.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -136,10 +147,11 @@ const AIComp = () => {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Continuous Improvement
+                  Continuous Improvement
                 </p>
                 <p className="leading-snug">
-                Regularly updating and refining our AI models to ensure optimal performance and accuracy.
+                  Regularly updating and refining our AI models to ensure
+                  optimal performance and accuracy.
                 </p>
               </div>
             </div>
@@ -160,10 +172,11 @@ const AIComp = () => {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Scalable AI Solutions
+                  Scalable AI Solutions
                 </p>
                 <p className="leading-snug">
-                Developing AI/ML solutions that can scale with our products, adapting to growing data and evolving requirements.
+                  Developing AI/ML solutions that can scale with our products,
+                  adapting to growing data and evolving requirements.
                 </p>
               </div>
             </div>
@@ -184,10 +197,12 @@ const AIComp = () => {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Enhanced Security and Compliance
+                  Enhanced Security and Compliance
                 </p>
                 <p className="leading-snug">
-                Ensuring our AI implementations adhere to the highest security standards and regulatory requirements to protect data and privacy.
+                  Ensuring our AI implementations adhere to the highest security
+                  standards and regulatory requirements to protect data and
+                  privacy.
                 </p>
               </div>
             </div>

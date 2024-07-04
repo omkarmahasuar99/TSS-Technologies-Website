@@ -18,14 +18,14 @@ const Career = () => {
   return (
     <>
       <Header />
-      <div className="career-page bg-white text-black">
+      <div className="career-page  bg-white text-black">
         <header className="relative bg-white text-white text-center mt-8">
           <img
             src={career}
             alt="Career Header"
             className="w-full h-auto p-1 object-cover lg:p-1"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center py-10"> 
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center py-10">
             <h1 className="text-4xl font-bold">Join Our Team</h1>
             <p className="mt-4 text-lg">
               Innovate with us and shape the future of technology.
@@ -33,14 +33,14 @@ const Career = () => {
           </div>
         </header>
 
-        <section className="job-listings py-12 px-4 mt-10">
+        <section className="job-listings py-12 px-10 mt-10">
           <h2 className="text-3xl font-bold text-center ">
             Job Recommendation For You
           </h2>
           <JobList />
         </section>
 
-        <section className="build-future py-12 px-4 flex flex-col lg:flex-row items-center">
+        <section className="build-future py-12 px-10 flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2">
             <img
               src={work}
@@ -51,7 +51,7 @@ const Career = () => {
           <div className="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
             <h2 className="text-4xl  font-bold ">Build Your Future</h2>
             <p className="mt-10">
-              At TSS Technologies, we believe in empowering our employees to
+              At tsstechnologies, we believe in empowering our employees to
               build their future. We provide opportunities for growth, learning,
               and development, ensuring that you have the tools you need to
               succeed and make a difference in the world.
@@ -65,10 +65,10 @@ const Career = () => {
           </div>
         </section>
 
-        <section className="why-work-with-us py-12 bg-gray-100">
+        <section className="why-work-with-us px-10 py-12 bg-gray-100">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center mb-8">
-              Why work with TSS Technologies?
+              Why work with tsstechnologies?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-center space-x-4">
@@ -128,7 +128,7 @@ const Career = () => {
                     Impactful Work
                   </h3>
                   <p className="text-gray-700">
-                    At TSS Technologies, your work will have a tangible impact.
+                    At tsstechnologies, your work will have a tangible impact.
                     Our projects are designed to solve real-world problems and
                     create positive change in the industries we serve.
                   </p>
@@ -139,7 +139,7 @@ const Career = () => {
         </section>
 
         <section
-          className="career-section container mx-auto px-4 py-12 flex flex-col lg:flex-row items-center"
+          className="career-section container mx-auto px-10 py-12 flex flex-col lg:flex-row items-center"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

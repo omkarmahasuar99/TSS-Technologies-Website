@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 import Header from "./Header";
 import Footer from "./Footer";
@@ -52,10 +53,13 @@ export default function AppDev() {
             shortcut to your dream ui
           </span>
           <h2 className="pb-3 text-3xl font-bold md:text-4xl">
-          Innovative App Development for Software Solutions
+            Innovative App Development for Software Solutions
           </h2>
           <p>
-          Our experienced app development team specializes in crafting cutting-edge mobile applications that align with our software products. We focus on delivering intuitive, high-performance apps that meet the evolving needs of our users.
+            Our experienced app development team specializes in crafting
+            cutting-edge mobile applications that align with our software
+            products. We focus on delivering intuitive, high-performance apps
+            that meet the evolving needs of our users.
           </p>
         </div>
         <div
@@ -64,10 +68,12 @@ export default function AppDev() {
         >
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Custom Mobile App Development
+              Custom Mobile App Development
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Designing and developing tailor-made mobile applications that reflect our software's unique functionalities and user requirements.
+              Designing and developing tailor-made mobile applications that
+              reflect our software's unique functionalities and user
+              requirements.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -79,10 +85,11 @@ export default function AppDev() {
             bis_skin_checked="1"
           >
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Cross-Platform Compatibility
+              Cross-Platform Compatibility
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Building apps that provide a seamless experience across various platforms, including iOS and Android.
+              Building apps that provide a seamless experience across various
+              platforms, including iOS and Android.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -91,10 +98,11 @@ export default function AppDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            User-Centric Design
+              User-Centric Design
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Implementing user-friendly interfaces and experiences to ensure our apps are intuitive and engaging.
+              Implementing user-friendly interfaces and experiences to ensure
+              our apps are intuitive and engaging.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -103,10 +111,11 @@ export default function AppDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Integration with Software Products
+              Integration with Software Products
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Ensuring seamless integration with our existing software solutions to provide a cohesive user experience.
+              Ensuring seamless integration with our existing software solutions
+              to provide a cohesive user experience.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -141,10 +150,11 @@ export default function AppDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Regular Updates and Maintenance
+                  Regular Updates and Maintenance
                 </p>
                 <p className="leading-snug">
-                Offering continuous support and timely updates to keep our apps running smoothly and efficiently.
+                  Offering continuous support and timely updates to keep our
+                  apps running smoothly and efficiently.
                 </p>
               </div>
             </div>
@@ -165,10 +175,11 @@ export default function AppDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Performance Optimization
+                  Performance Optimization
                 </p>
                 <p className="leading-snug">
-                Utilizing best practices to enhance app performance and ensure fast, responsive user interactions.
+                  Utilizing best practices to enhance app performance and ensure
+                  fast, responsive user interactions.
                 </p>
               </div>
             </div>
@@ -189,10 +200,11 @@ export default function AppDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Robust Security
+                  Robust Security
                 </p>
                 <p className="leading-snug">
-                Implementing advanced security measures to protect user data and ensure the reliability of our applications.
+                  Implementing advanced security measures to protect user data
+                  and ensure the reliability of our applications.
                 </p>
               </div>
             </div>

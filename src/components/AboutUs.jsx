@@ -53,7 +53,7 @@ const AboutUs = () => {
           <section className="mb-12 mx-10">
             <h2 className="text-3xl font-semibold mb-4">Company Overview</h2>
             <p className="text-base mt-10" style={{ wordSpacing: "0.1rem" }}>
-              Welcome to TSS technologies, we are committed to providing
+              Welcome to tsstechnologies, we are committed to providing
               innovative technology solutions that empower businesses to achieve
               their full potential. Our team of skilled professionals excels in
               areas ranging from web development and app design to software
@@ -64,9 +64,9 @@ const AboutUs = () => {
               nothing but the best.
               {isExpanded && (
                 <>
-                  At TSS technologies, we strive to be more than just a
+                  At tsstechnologies, we strive to be more than just a
                   technology provider. We aim to be your trusted partner on the
-                  journey to success in the digital world. At TSS technologies,
+                  journey to success in the digital world. At tsstechnologies,
                   we believe in the transformative power of technology to effect
                   positive change. We are committed to continuous exploration
                   and innovation, ensuring that our solutions remain at the

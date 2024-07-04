@@ -15,12 +15,12 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center md:items-start space-y-4">
             <img
               src={logo}
-              alt="TSS"
+              alt="tss"
               className="w-24 h-24 transition-transform transform hover:scale-110"
             />
             <p className="mt-4">Follow Us On</p>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/about-us"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
                   About Us
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/careers"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
                   Careers
@@ -82,10 +82,10 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contact-us"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
-                  Blog
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -98,34 +98,34 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="opacity-0">
             <h5 className="text-lg font-semibold mb-3 transition-colors duration-300 hover:text-gray-400">
               Resources
             </h5>
             <ul className="space-y-2">
               <li>
-                <a
+                {/* <a
                   href="#"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
                   Help Center
-                </a>
+                </a> */}
               </li>
               <li>
-                <a
+                {/* <a
                   href="#"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
                   Contact Us
-                </a>
+                </a> */}
               </li>
               <li>
-                <a
+                {/* <a
                   href="#"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
-                  FAQs
-                </a>
+                  FAQs 
+                </a>*/}
               </li>
             </ul>
           </div>
@@ -168,7 +168,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} TSS Technologies. All rights
+            &copy; {new Date().getFullYear()} tsstechnologies. All rights
             reserved.
           </p>
         </div>

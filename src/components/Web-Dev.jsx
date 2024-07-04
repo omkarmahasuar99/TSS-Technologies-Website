@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 import Header from "./Header";
 import Footer from "./Footer";
@@ -29,8 +30,8 @@ export default function WebDev() {
               </p>
               <p className="mt-8 text-base font-normal leading-7 text-gray-400 lg:max-w-md xl:pr-0 lg:pr-16">
                 With a strong emphasis on intuitive design and state-of-the-art
-                functionalities, our web apps set new standards in usability
-                and innovation.
+                functionalities, our web apps set new standards in usability and
+                innovation.
               </p>
             </div>
           </div>
@@ -53,10 +54,13 @@ export default function WebDev() {
             shortcut to your dream website
           </span>
           <h2 className="pb-3 text-3xl font-bold md:text-4xl">
-          Web Development Services for Cutting-Edge Products
+            Web Development Services for Cutting-Edge Products
           </h2>
           <p>
-          Our dedicated web development team harnesses cutting-edge technologies and innovative solutions to create robust, user-friendly websites for our products. We focus on delivering seamless digital experiences that engage and delight our customers.
+            Our dedicated web development team harnesses cutting-edge
+            technologies and innovative solutions to create robust,
+            user-friendly websites for our products. We focus on delivering
+            seamless digital experiences that engage and delight our customers.
           </p>
         </div>
         <div
@@ -68,7 +72,8 @@ export default function WebDev() {
               Custom Web Design & Development
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Crafting unique, tailor-made websites that showcase our products and enhance our brand identity.
+              Crafting unique, tailor-made websites that showcase our products
+              and enhance our brand identity.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -80,10 +85,11 @@ export default function WebDev() {
             bis_skin_checked="1"
           >
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Responsive and Mobile-First Approach
+              Responsive and Mobile-First Approach
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Ensuring a seamless user experience across all devices with responsive and mobile-first design principles.
+              Ensuring a seamless user experience across all devices with
+              responsive and mobile-first design principles.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -92,10 +98,12 @@ export default function WebDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Integrated Software Solutions
+              Integrated Software Solutions
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Developing platforms that seamlessly integrate with our software products, providing users with a cohesive and efficient experience.
+              Developing platforms that seamlessly integrate with our software
+              products, providing users with a cohesive and efficient
+              experience.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -104,10 +112,11 @@ export default function WebDev() {
           </div>
           <div className="flex flex-col px-8 py-6" bis_skin_checked="1">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-800">
-            Advanced SEO Optimization
+              Advanced SEO Optimization
             </h2>
             <p className="flex-1 mb-4 text-base leading-relaxed dark:text-gray-600">
-            Implementing top-tier SEO strategies to maximize our software products' online visibility and search engine rankings.
+              Implementing top-tier SEO strategies to maximize our software
+              products' online visibility and search engine rankings.
             </p>
             <a
               className="inline-flex items-center space-x-2 text-sm dark:text-violet-600"
@@ -142,10 +151,11 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Ongoing Support and Maintenance
+                  Ongoing Support and Maintenance
                 </p>
                 <p className="leading-snug">
-                Providing continuous support and regular updates to keep our websites running at peak performance.
+                  Providing continuous support and regular updates to keep our
+                  websites running at peak performance.
                 </p>
               </div>
             </div>
@@ -166,10 +176,11 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Scalable Solutions
+                  Scalable Solutions
                 </p>
                 <p className="leading-snug">
-                Designing flexible web solutions that can grow and adapt with our expanding software product lineup.
+                  Designing flexible web solutions that can grow and adapt with
+                  our expanding software product lineup.
                 </p>
               </div>
             </div>
@@ -190,10 +201,11 @@ export default function WebDev() {
               </svg>
               <div className="space-y-2" bis_skin_checked="1">
                 <p className="text-lg font-medium leading-snug">
-                Enhanced Security Measures
+                  Enhanced Security Measures
                 </p>
                 <p className="leading-snug">
-                Utilizing the latest security protocols to protect our websites and ensure a safe user experience.
+                  Utilizing the latest security protocols to protect our
+                  websites and ensure a safe user experience.
                 </p>
               </div>
             </div>
