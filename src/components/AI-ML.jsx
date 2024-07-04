@@ -33,11 +33,7 @@ const AIComp = () => {
           </div>
 
           <div className="mt-8 lg:hidden">
-            <img
-              className="object-cover w-full h-full"
-              src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
-              alt=""
-            />
+            <img className="object-cover w-full h-full" src={AIImg} alt="" />
           </div>
         </div>
       </section>
