@@ -1,10 +1,11 @@
-import ourStoryImage from "../assets/ourStory.jpeg";
+import ourStoryImage from "../assets/ourStory.jpg";
 import ourApproachImage from "../assets/ourApproach.jpg";
 import innovationImage from "../assets/innovation.jpg";
 import integrityImage from "../assets/integrity.jpg";
 import Image from "../assets/images.jpeg";
 import Footer from "./Footer";
 import Header from "./Header";
+import { useState } from "react";
 
 const AboutUs = () => {
   const cards = [
@@ -38,6 +39,12 @@ const AboutUs = () => {
     },
   ];
 
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <>
       <Header />
@@ -46,7 +53,7 @@ const AboutUs = () => {
           <section className="mb-12 mx-10">
             <h2 className="text-3xl font-semibold mb-4">Company Overview</h2>
             <p className="text-base mt-10" style={{ wordSpacing: "0.1rem" }}>
-              Welcome to tsstechnologies, we are committed to providing
+              Welcome to TSS technologies, we are committed to providing
               innovative technology solutions that empower businesses to achieve
               their full potential. Our team of skilled professionals excels in
               areas ranging from web development and app design to software
@@ -54,22 +61,31 @@ const AboutUs = () => {
               high-quality, tailored solutions to meet the diverse needs of our
               clients. Our unwavering commitment to excellence and customer
               satisfaction fuels our every endeavor, ensuring that we deliver
-              nothing but the best. At tsstechnologies, we strive to be more
-              than just a technology provider. We aim to be your trusted partner
-              on the journey to success in the digital world. At
-              tsstechnologies, we believe in the transformative power of
-              technology to effect positive change. We are committed to
-              continuous exploration and innovation, ensuring that our solutions
-              remain at the forefront of the digital landscape. Join us on our
-              mission to revolutionize industries and enhance lives through
-              exceptional digital advancements.
+              nothing but the best.
+              {isExpanded && (
+                <>
+                  At TSS technologies, we strive to be more than just a
+                  technology provider. We aim to be your trusted partner on the
+                  journey to success in the digital world. At TSS technologies,
+                  we believe in the transformative power of technology to effect
+                  positive change. We are committed to continuous exploration
+                  and innovation, ensuring that our solutions remain at the
+                  forefront of the digital landscape. Join us on our mission to
+                  revolutionize industries and enhance lives through exceptional
+                  digital advancements.
+                </>
+              )}
             </p>
+            <button className="text-green-700 mt-4" onClick={handleReadMore}>
+              {isExpanded ? "Read Less" : "Read More"}
+            </button>
           </section>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-12 mt-20">
             {cards.map((card) => (
               <div
                 key={card.id}
-                className="bg-black p-8 rounded-lg shadow-lg hover:shadow-xl hover:transform hover:scale-110 transition-transform duration-300"
+                className="bg-gray-900 p-8 rounded-lg shadow-lg hover:shadow-xl hover:transform hover:scale-110 transition-transform duration-300"
               >
                 <img
                   src={card.imageUrl}

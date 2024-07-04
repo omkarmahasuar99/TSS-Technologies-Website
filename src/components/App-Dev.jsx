@@ -37,7 +37,7 @@ export default function AppDev() {
           <div className="mt-8 lg:hidden">
             <img
               className="object-cover w-full h-full"
-              src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png"
+              src={appDevImg}
               alt=""
             />
           </div>
