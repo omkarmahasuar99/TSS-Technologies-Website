@@ -70,7 +70,7 @@ function TechnologiesUsed() {
           />
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
             <div>
-              <p className="text-black text-tiny">
+              <p className="text-white text-sm">
                 Creative prowess with technical expertise to engineer apps that
                 are intuitive, scalable, and purpose-built
               </p>
@@ -105,7 +105,7 @@ function TechnologiesUsed() {
           />
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
             <div>
-              <p className="text-black text-tiny">
+              <p className="text-white text-sm">
                 Predictive analytics, natural language processing, computer
                 vision, and more
               </p>

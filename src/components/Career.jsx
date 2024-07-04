@@ -19,13 +19,13 @@ const Career = () => {
     <>
       <Header />
       <div className="career-page bg-white text-black">
-        <header className="relative bg-white text-white text-center">
+        <header className="relative bg-white text-white text-center mt-8">
           <img
             src={career}
             alt="Career Header"
-            className="w-full h-auto p-2 object-cover"
+            className="w-full h-auto p-1 object-cover lg:p-1"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center py-10">
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center py-10"> 
             <h1 className="text-4xl font-bold">Join Our Team</h1>
             <p className="mt-4 text-lg">
               Innovate with us and shape the future of technology.

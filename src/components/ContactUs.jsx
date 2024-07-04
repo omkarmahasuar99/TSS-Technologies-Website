@@ -36,7 +36,7 @@ const ContactUs = () => {
       </div>
       <div className="h-auto w-full flex flex-col md:flex-row">
         <form
-          className="flex flex-col mx-4 sm:mx-16 md:mx-[8rem] py-4 transform transition duration-300 hover:scale-110"
+          className="flex flex-col mx-4 sm:mx-16 md:mx-[10rem] py-4 transform transition duration-300 hover:scale-110"
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col mb-4">
@@ -101,20 +101,20 @@ const ContactUs = () => {
           </button>
         </form>
 
-        <div className="h-auto w-full md:w-[36rem] mx-4 md:mx-0">
+        <div className="h-auto w-full md:w-[34rem] mx-4 md:mx-0">
           <section className="leading-[23px] transform transition duration-300 hover:scale-110 mt-4 md:mt-[3rem]">
             <h1 className="text-2xl mb-4">FAQ</h1>
-            <h2 className="ml-[20px]">Where are you located?</h2>
-            <p className="mb-[20px] ml-[20px] text-[12px]">
+            <h2 className="ml-[12px]">Where are you located?</h2>
+            <p className="mb-[20px] ml-[12px] text-[12px]">
               Our main office is located at 26, 2nd Main, Nila Layout,
               Bettadasanapura Main Rd, Doddathoguru, Bengaluru, Karnataka -
               560100.
             </p>
 
-            <h2 className="ml-[20px]">
+            <h2 className="ml-[12px]">
               What does TSSTechnologies specialize in?
             </h2>
-            <p className="mb-[20px] ml-[20px] text-[12px]">
+            <p className="mb-[20px] ml-[12px] text-[12px]">
               TSSTechnologies specializes in developing innovative digital
               products, including mobile applications, web applications, and
               advanced AI & Machine Learning solutions. We focus on delivering
@@ -122,11 +122,11 @@ const ContactUs = () => {
               experiences.
             </p>
 
-            <h2 className="ml-[20px]">
+            <h2 className="ml-[12px]">
               How does TSSTechnologies ensure the quality of its digital
               products?
             </h2>
-            <p className="mb-[20px] ml-[20px] text-[12px]">
+            <p className="mb-[20px] ml-[12px] text-[12px]">
               Quality is a top priority at TSSTechnologies. We adhere to
               rigorous testing and validation processes throughout the
               development lifecycle. Our team of experts combines deep technical
@@ -137,7 +137,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className="h-64  flex flex-col md:flex-row px-4 py-4">
+      <div className="h-64  flex flex-col md:flex-row px-4 py-4 mx-8">
         <div className="h-52  md:w-60 mx-4 lg:mx-28 my-3 text-center bg-black-400 py-3 border border-green-300 rounded-3xl transform transition duration-300 hover:scale-110">
           <RiMapPin2Fill className="mx-auto size-12" />
           <p className="text-sm font-bold my-[10px]">Our Office</p>
