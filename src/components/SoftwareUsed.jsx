@@ -77,7 +77,7 @@ const collabApps = [
     icon: pythonIcon,
     width: 38,
     height: 32,
-    text: "Python is a versatile, high-level programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's syntax allows developers to write concise code, making it popular for rapid application development and scripting. It boasts a rich standard library and active community support, offering solutions for diverse tasks from web development to data analysis, scientific computing, and artificial intelligence. Python's interpreted nature facilitates easy debugging and prototyping. Its cross-platform compatibility ensures programs run consistently across different operating systems. Overall, Python's flexibility and ease of use make it a top choice for beginners and seasoned developers alike.",
+    text: "Python is a versatile, high-level programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's syntax allows developers to write concise code, making it popular for rapid application development and scripting. It boasts a rich standard library and active community support, offering solutions for diverse tasks from web development to data analysis, scientific computing, and artificial intelligence. Python's interpreted nature facilitates easy debugging and prototyping. Its cross-platform compatibility ensures programs run consistently across different operating systems.",
   },
 ];
 
@@ -149,7 +149,7 @@ function SoftwareUsed() {
           </ul>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-16">
+        <div className="lg:ml-auto xl:w-[38rem] mt-16 ">
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-[conic-gradient(var(--tw-gradient-stops))] from-orange-400 via-red-500 to-yellow-500 rounded-full">
@@ -163,7 +163,7 @@ function SoftwareUsed() {
               {collabApps.map((app, index) => (
                 <li
                   key={app.id}
-                  className={`absolute z-1 top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
+                  className={`absolute z-1 top-[10%] sm:top-0 left-1/2 h-[40%] sm:h-1/2 -ml-[1.6rem] origin-bottom rotate-${
                     index * 45
                   }`}
                 >
@@ -201,7 +201,7 @@ function SoftwareUsed() {
           isVisible ? "h-[700px] lg:h-[300px] opacity-100" : "h-0 opacity-0"
         } overflow-hidden flex items-center justify-center`}
       >
-        <div className="w-full lg:w-full lg:border-[1px] border-n-6 rounded-2xl h-[640px] lg:h-[280px] lg:flex lg:items-center lg:justify-between px-12 shadow-md shadow-neutral-800">
+        <div className="w-full lg:w-full lg:border-[1px] border-n-6 rounded-2xl h-[640px] lg:h-[280px] lg:flex lg:items-center lg:justify-between px-8 shadow-md shadow-neutral-800">
           <div className="w-[250px] lg:h-[250px]  mr-2 flex items-center justify-between">
             {selectedApp && (
               <img
@@ -217,7 +217,7 @@ function SoftwareUsed() {
           </div>
           <div className="w-full lg:w-[800px] lg:h-[250px] h-[400px]  lg:flex lg:items-center lg:justify-between">
             {selectedApp && (
-              <p className="text-[#ADABAB]">{selectedApp.text}</p>
+              <p className="text-[#ADABAB] text-justify">{selectedApp.text}</p>
             )}
           </div>
         </div>

@@ -86,3 +86,26 @@
 .-rotate-360 {
   @apply rotate-[-360deg]
 }
+
+.additional-content {
+  display: inline;
+}
+ 
+.read-more-btn {
+  display: none;
+}
+ 
+ 
+@media only screen and (max-width: 768px) {
+  .read-more-btn {
+    display: inline;
+  }
+ 
+  .additional-content {
+    display: none;
+  }
+ 
+  .additional-content.expanded {
+    display: inline;
+  }
+}

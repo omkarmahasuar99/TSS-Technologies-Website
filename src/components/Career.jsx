@@ -50,13 +50,13 @@ const Career = () => {
           </div>
           <div className="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
             <h2 className="text-4xl  font-bold ">Build Your Future</h2>
-            <p className="mt-10">
+            <p className="mt-10 text-justify">
               At tsstechnologies, we believe in empowering our employees to
               build their future. We provide opportunities for growth, learning,
               and development, ensuring that you have the tools you need to
               succeed and make a difference in the world.
             </p>
-            <p className="mt-6">
+            <p className="mt-6 text-justify">
               Whether you're an experienced professional or just starting out,
               we offer a range of career paths and support to help you achieve
               your goals. Join us and take the first step towards a rewarding
@@ -68,7 +68,7 @@ const Career = () => {
         <section className="why-work-with-us px-10 py-12 bg-gray-100">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center mb-8">
-              Why work with tsstechnologies?
+              Why work with <span className="-ml-[13px] md:ml-0">tsstechnologies?</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-center space-x-4">
@@ -159,7 +159,7 @@ const Career = () => {
               Together, we build great careers and give innovation that human
               touch the world needs.
             </p>
-            <p className="text-l font-semibold text-gray-800">
+            <p className="text-l font-semibold text-gray-800 mb-5">
               tsstechnologies, Get the future you want.
             </p>
           </motion.div>

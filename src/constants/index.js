@@ -15,7 +15,7 @@ export const navigation = [
   {
     id: "1",
     title: "Vision & Mission",
-    // url: "#how-to-use",
+    url: "/visionmissiondetails",
   },
   {
     id: "2",

@@ -14,7 +14,7 @@ import { Link, useNavigate } from "react-router-dom";
 function TechnologiesUsed() {
   const navigate = useNavigate();
   return (
-    <div className="lg:-mb-60 md:-mb-60 ">
+    <div className="lg:-mb-60 md:-mb-60  mb-20">
       <div className="gap-5 grid grid-cols-12 grid-rows-2 px-8">
         <Card
           onClick={() => navigate("/web-dev")}

@@ -11,56 +11,22 @@ import {
   faEnvelope,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-
+ 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
       <div className="container mx-auto px-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="flex flex-col items-center md:items-start space-y-4">
+        <div className="flex flex-col  md:items-start space-y-4 md:space-y-0 md:col-span-1">
             <img
               src={logo}
               alt="tss"
-              className="w-24 h-24 transition-transform transform hover:scale-110"
+              className="w-28 h-28 transition-transform transform hover:scale-110"
             />
-            <p className="mt-4">Follow Us On</p>
-            <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-400 transition-transform transform hover:scale-110"
-              >
-                <FontAwesomeIcon icon={faFacebookF} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-400 transition-transform transform hover:scale-110"
-              >
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-400 transition-transform transform hover:scale-110"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-400 transition-transform transform hover:scale-110"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-            </div>
+            <h5 className="font-bold text-xl pt-2">tsstechnologies</h5>
           </div>
           <div>
-            <h5 className="text-lg font-semibold mb-3 transition-colors duration-300 hover:text-gray-400">
+            <h5 className="text-lg font-semibold mb-2 transition-colors duration-300 hover:text-gray-400">
               Company
             </h5>
             <ul className="space-y-2">
@@ -95,37 +61,6 @@ const Footer = () => {
                 >
                   Privacy Policy
                 </a>
-              </li>
-            </ul>
-          </div>
-          <div className="opacity-0">
-            <h5 className="text-lg font-semibold mb-3 transition-colors duration-300 hover:text-gray-400">
-              Resources
-            </h5>
-            <ul className="space-y-2">
-              <li>
-                {/* <a
-                  href="#"
-                  className="hover:text-gray-400 transition-colors duration-300"
-                >
-                  Help Center
-                </a> */}
-              </li>
-              <li>
-                {/* <a
-                  href="#"
-                  className="hover:text-gray-400 transition-colors duration-300"
-                >
-                  Contact Us
-                </a> */}
-              </li>
-              <li>
-                {/* <a
-                  href="#"
-                  className="hover:text-gray-400 transition-colors duration-300"
-                >
-                  FAQs 
-                </a>*/}
               </li>
             </ul>
           </div>
@@ -165,6 +100,45 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="flex flex-col space-y-4 md:space-y-0 md:col-span-1 md:text-right">
+            <div>
+              <h5 className="mb-2 mr-15 text-lg font-semibold">Follow us on</h5>
+              <div className="flex justify-start md:justify-end space-x-[18px] mt-2 mr-16">
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-400 transition-transform transform hover:scale-110"
+                >
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-400 transition-transform transform hover:scale-110"
+                >
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-400 transition-transform transform hover:scale-110"
+                >
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-400 transition-transform transform hover:scale-110"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4 text-center">
           <p className="text-sm">
@@ -176,5 +150,5 @@ const Footer = () => {
     </footer>
   );
 };
-
+ 
 export default Footer;
