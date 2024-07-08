@@ -52,7 +52,7 @@ const Career = () => {
             <h2 className="text-4xl  font-bold ">Build Your Future</h2>
             <p className="mt-10 text-justify">
               At tsstechnologies, we believe in empowering our employees to
-              build their future. We provide opportunities for growth, learning,
+              build their future. We provide opportunities for growth, learning
               and development, ensuring that you have the tools you need to
               succeed and make a difference in the world.
             </p>
@@ -114,7 +114,7 @@ const Career = () => {
                   <p className="text-gray-700">
                     Our team is our greatest asset. We cultivate a collaborative
                     and inclusive workplace where diverse perspectives are
-                    valued, and teamwork is encouraged. Together, we achieve
+                    valued and teamwork is encouraged. Together, we achieve
                     excellence.
                   </p>
                 </div>

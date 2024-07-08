@@ -141,10 +141,10 @@ const ContactUs = () => {
               </p>
 
               <h2 className="mx-[10px]">
-                What does TSSTechnologies specialize in?
+                What does tsstechnologies specialize in?
               </h2>
               <p className="mb-[20px] mx-[10px] text-[12px]">
-                TSSTechnologies specializes in developing innovative digital
+                tsstechnologies specializes in developing innovative digital
                 products, including mobile applications, web applications, and
                 advanced AI & Machine Learning solutions. We focus on delivering
                 customized solutions that drive business growth and enhance user
@@ -152,11 +152,11 @@ const ContactUs = () => {
               </p>
 
               <h2 className="ml-[10px]">
-                How does TSSTechnologies ensure the quality of its digital
+                How does tsstechnologies ensure the quality of its digital
                 products?
               </h2>
               <p className="mb-[20px] ml-[10px] text-[12px]">
-                Quality is a top priority at TSSTechnologies. We adhere to
+                Quality is a top priority at tsstechnologies. We adhere to
                 rigorous testing and validation processes throughout the
                 development lifecycle. Our team of experts combines deep
                 technical expertise with industry best practices to deliver

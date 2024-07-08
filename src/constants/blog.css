@@ -20,3 +20,22 @@
 .base1 img {
     padding-bottom: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .base1 {
+        padding: 50px 10%;
+    }
+
+    .base1 h1 {
+        font-size: 48px;
+    }
+
+    .base1 h2 {
+        font-size: 24px;
+    }
+
+    .base1 p {
+        font-size: 16px;
+    }
+    
+}
