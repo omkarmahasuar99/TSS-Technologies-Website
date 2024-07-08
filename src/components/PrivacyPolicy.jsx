@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     <>
     < Header />
     <div className="bg-gray-200">
-    <div className="privacy-policy container  text-black bg-white border border-black px-10 rounded-lg w-2/3 ">
+    <div className="privacy-policy container  text-black bg-white sm:border border-black pt-8 sm:px-10 rounded-lg sm:w-2/3 px- ">
       <h1 className="text-3xl text-center font-bold mb-6 pt-5">Privacy Policy</h1>
       <p className="mb-4 font-thin">
         DTSS Technologies Limited, its subsidiaries and branch operations hereinafter referred as ‘DTSS Technologies’, ‘we’, ‘us’ or ‘our’ is committed to respect your privacy and choices. The privacy statement (hereinafter “Privacy Statement” or “Statement”) highlights our privacy practices regarding Personal Information that we collect and process in compliance to applicable data privacy regulations.
