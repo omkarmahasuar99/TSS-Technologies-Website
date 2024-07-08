@@ -1,0 +1,22 @@
+.base1 {
+    padding: 100px 25%;
+    padding-top: 50px;
+}
+
+.base1 h1 {
+    font-size: 64px;
+    padding-bottom: 30px;
+}
+
+.base1 h2 {
+    padding: 25px 0;
+}
+
+.base1 p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.base1 img {
+    padding-bottom: 40px;
+}

@@ -138,9 +138,9 @@ function SoftwareUsed() {
 
   return (
     <>
-      <div className="container lg:flex my-10">
-        <div className="max-w-[25rem]">
-          <h3 className="h3 mb-4 md:mb-8">Core Software That We Use</h3>
+      <div className="lg:flex py-10 px-[7%] bg-gradient-to-b from-black n-8 ">
+        <div className="max-w-[25rem] z-30">
+          <h3 className="h3 mb-4 md:mb-8 ">Core Software That We Use</h3>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
@@ -149,7 +149,7 @@ function SoftwareUsed() {
           </ul>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-16 ">
+        <div className="lg:ml-auto xl:w-[38rem] mt-16 z-30 ">
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-[conic-gradient(var(--tw-gradient-stops))] from-orange-400 via-red-500 to-yellow-500 rounded-full">

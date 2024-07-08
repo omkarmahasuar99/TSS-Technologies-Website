@@ -15,7 +15,7 @@ function Hero() {
           </p>
         </div>
         <Parallax
-          className="absolute w-full h-full"
+          className="absolute md:w-full w-[110%] h-full lg:h-[1000px]"
           renderLayer={(percentage) => (
             <img
               src={EarthOnly}

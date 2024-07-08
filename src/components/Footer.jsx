@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/privacy-policy"
                   className="hover:text-gray-400 transition-colors duration-300"
                 >
                   Privacy Policy
@@ -142,7 +142,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} tsstechnologies. All rights
+            &copy; {new Date().getFullYear()} DTSSTECHNOLOGIES LLP. All rights
             reserved.
           </p>
         </div>

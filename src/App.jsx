@@ -11,6 +11,10 @@ import AboutUs from "./components/AboutUs";
 import AIComp from "./components/AI-ML";
 import JobDetails from "./components/Jobdetails";
 import VisionMissionDetail from "./components/VisionMisionDetail";
+import ServersideRendering from "./components/ServersideRendering";
+import ArtificialIntelligence from "./components/ArtificailInteligence";
+import InternetOfThings from "./components/InternetOfThings";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 const App = () => {
   return (
     <>
@@ -28,7 +32,11 @@ const App = () => {
             <Route path="/visionmissiondetails" element={<VisionMissionDetail />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path={"/careers/:jobId"} element={<JobDetails />} />
+            <Route path={"/job/:jobId"} element={<JobDetails />} />
+            <Route path="/server-side-rendering" element={<ServersideRendering />} />
+            <Route path="/artificial-intelligence" element={<ArtificialIntelligence />} />
+            <Route path="/internet-of-things" element={<InternetOfThings />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </Router>
       </div>

@@ -4,6 +4,7 @@ import TechnologiesUsed from "./TechnologiesUsed";
 import Footer from "./Footer";
 import SoftwareUsed from "./SoftwareUsed";
 import Hero from "./Hero";
+import Blog from "./Blog";
 
 export default function Landing() {
   return (
@@ -13,6 +14,7 @@ export default function Landing() {
       <SoftwareUsed />
       <VisionMission />
       <TechnologiesUsed />
+      <Blog />
       <Footer />
     </>
   );

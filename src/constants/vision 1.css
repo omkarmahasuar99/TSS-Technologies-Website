@@ -10,8 +10,7 @@
   transition: all .3s;
   text-align: center;
   margin-bottom: 50px; /* added margin bottom to create gap between cards */
-
- }
+   }
 
 
 
@@ -44,6 +43,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding-bottom: 70px;
  }
  .headingVision{
   color:rgb(93, 185, 93)  ;

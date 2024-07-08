@@ -17,7 +17,7 @@ export default function VisionMissionDetail() {
         />
         <div className="flex-grow o">
           <h1 className="text-3xl font-bold mb-4 text-center transition duration-300" style={{ color: 'rgb(93, 185, 93)' }}>Our Vision</h1>
-          <p className="text-lg text-left md:text-left transition duration-300 transform hover:scale-110 text-justify" style={{ color: 'white', fontSize: '16px' }}>
+          <p className="text-lg  transition duration-300 transform hover:scale-110 text-justify" style={{ color: 'white', fontSize: '16px' }}>
             Our vision is to be a global vanguard in the digital product sector, distinguished by our excellence in application and web development and our pioneering advancements in artificial intelligence. We strive to shape the future of technology by cultivating innovation, fostering creativity, and making significant contributions to societal progress. Through our relentless pursuit of excellence and our commitment to research and development, we aim to inspire a new era of technological possibilities that enhance the quality of life and drive sustainable growth across the globe.
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function VisionMissionDetail() {
       <div className="max-w-6xl mx-auto p-6 shadow-md rounded-lg flex flex-col md:flex-row-reverse items-center mt-8">
         <div className="flex-grow md:order-last">
           <h1 className="text-3xl font-bold mb-4 text-center transition duration-300" style={{ color: 'rgb(93, 185, 93)' }}>Our Mission</h1>
-          <p className="text-lg text-left md:text-left transition duration-300 transform hover:scale-110 text-justify" style={{ color: 'white', fontSize: '16px' }}>
+          <p className="text-lg  transition duration-300 transform hover:scale-110 text-justify" style={{ color: 'white', fontSize: '16px' }}>
             Our mission is to engineer transformative digital solutions that elevate user experiences through innovative technology. We are committed to delivering premium applications and web solutions while spearheading advanced research and development in artificial intelligence. Our goal is to empower businesses and individuals worldwide with cutting-edge technology, driving efficiency, creativity, and success in every interaction.
           </p>
         </div>
