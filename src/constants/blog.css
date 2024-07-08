@@ -9,12 +9,14 @@
 }
 
 .base1 h2 {
+    font-size: 22px;
     padding: 25px 0;
 }
 
 .base1 p {
     text-align: justify;
     line-height: 1.5em;
+    color: rgb(180, 180, 180);
 }
 
 .base1 img {
@@ -27,7 +29,8 @@
     }
 
     .base1 h1 {
-        font-size: 48px;
+        font-size: 36px!important;
+        line-height: 42px!important;
     }
 
     .base1 h2 {
