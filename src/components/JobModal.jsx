@@ -151,7 +151,7 @@ export default function JobModal({ isOpen, onClose, selectedjob }) {
           <CloseIcon />
         </IconButton>
       </DialogTitle>
-      <DialogContent dividers sx={{ px: 10, pt: 2 }}>
+      <DialogContent dividers sx={{ px: '10%', pt: 2 }}>
       <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }} gutterBottom>
           Job Description:
         </Typography>

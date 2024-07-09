@@ -105,7 +105,7 @@ const Footer = () => {
               <h5 className="mb-2 mr-15 text-lg font-semibold">Follow us on</h5>
               <div className="flex justify-start md:justify-end space-x-[18px] mt-2 mr-16">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=61556577814647&mibextid=LQQJ4d"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-400 transition-transform transform hover:scale-110"
@@ -113,7 +113,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/TssTechies"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-400 transition-transform transform hover:scale-110"
@@ -121,7 +121,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/tsstechies?igsh=OXpnZmg3enBmcGo0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-400 transition-transform transform hover:scale-110"
