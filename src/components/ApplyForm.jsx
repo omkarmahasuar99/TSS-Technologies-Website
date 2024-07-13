@@ -80,7 +80,7 @@ const ApplyForm = ({job}) => {
           </div>
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Resume Link (Uploaded in Google Drive)
+              Public Resume Link (Uploaded to Google Drive)
             </label>
             <motion.input
               type="text"
